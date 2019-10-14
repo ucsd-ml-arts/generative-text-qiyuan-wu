@@ -1,12 +1,11 @@
 # Project 1 Generative Text
 
-Your Name, yourcontact@ucsd.edu
+Qiyuan Wu, qiw103@ucsd.edu
 
-(Your teammate's contact info, if appropriate)
 
 ## Abstract
+American Psycho, is a 2000 American neo-noir satirical psychological horror film co-written and directed by Mary Harron, based on Bret Easton Ellis's 1991 novel of the same name. The movie is set on 1988 and examines the shallowness and vanity along with extreme indifference towards the others induced by materialism, which makes the protaganist become a "psycho". I choose the script of this movie as the training set for this project not only because it is my favourite movie, but also because the protagonist Patrick Bateman is only "in touch of humanity" instead of an actual normal human that can feel the genuine emotions, which coincides with the nature of AI. For this project, I will try to use machine learning to generate a dialogue that resembles the idiosyncratic, eccentric and sacarstic style of the movie. RNN model will be used to achieve the goal, and parameters will be altered and tested to better the outcome. I'll also separate the script into 2 categories: Bateman's lines and other people's lines, so that Bateman's idiosyncrasy of language can be reserved.
 
-Include your abstract here. This should be one paragraph clearly describing your concept, method, and results. This should tell us what architecture/approach you used. Also describe your creative goals, and whether you were successful in achieving them. Also could describe future directions.
 
 ## Model/Data
 
