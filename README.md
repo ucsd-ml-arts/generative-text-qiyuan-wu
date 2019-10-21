@@ -77,3 +77,4 @@ References to any papers, techniques, repositories you used:
 - Papers
   - [Long Short-Term Memory RNN](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43905.pdf)
 - Blog posts
+ [Professor Twomey]https://roberttwomey.github.io/ucsd-ml-art/
