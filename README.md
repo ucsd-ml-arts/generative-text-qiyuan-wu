@@ -15,6 +15,9 @@ I trained Recurrent Neural Network to generate the text we wanted. A recurrent n
    tf.keras.layers.Embedding: The input layer. A trainable lookup table that will map the numbers of each character to a vector with embedding_dim dimensions\
     tf.keras.layers.GRU: A type of RNN with size units=rnn_units\
     tf.keras.layers.Dense: The output layer, with vocab_size outputs.
+I trained the model then, by attaching an optimizer and a loss function. I chose an epoch size of 500, 800 and 1000 because low epoch size gave me very random output that does not even have any real English words. After I configured checkpoints, I checked the summary of the model:
+<a href="https://ibb.co/vhFwJDN"><img src="https://i.ibb.co/jzN6LHC/Capture.png" alt="Capture" border="0"></a>
+Then I chose temperature (I used default 1.0, because higher temperature output cannot even have a complete English word in it, all  and the seed, and I obtained the result texts.
 
 - training data (or link to training data). what is your corpus?
 The training data I used is the full script of the movie American Psycho (https://www.dailyscript.com/scripts/American_Psycho_Harron_Turner.html). It includes all the dialogue of characters and description of all the scenes. I separated all the lines from the protagonist Patrick Bateman, including his voiceovers, because otherwise the generated text would not be a pure simulation of Patrick's talking style. I did the data separation and preprocessing manually because I tried the processing code and it could not perform satisfactorilly due to the structure and encodement of the script file. After training the model and generating the first few text results I found that the initial script file has numerous redundant '/n' lines, which impacted the results in a negative way. Therefore, I got rid of those redundant change of line operators, and the result became much more reasonable and has less random characters and symbols.
@@ -72,5 +75,4 @@ My code requires TensorFlow, NumPy and IPython libraries. My code can run on any
 References to any papers, techniques, repositories you used:
 - Papers
   - [Long Short-Term Memory RNN](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43905.pdf)
-- Repositories
 - Blog posts
