@@ -66,7 +66,8 @@ Uh, no. There's one...down here.
 
 I know it's all right. I'm not very good at controlling.
 
--I feel quite satisfied with the generated text result because it has reserved the eccentric and inconsiderate style of Patrick Bateman. It also reserves the key features such as the location New York, the languish living style and the person who interacts with the Bateman the most: his secreatary Jean.
+- I feel quite satisfied with the generated text result because it has reserved the eccentric and inconsiderate style of Patrick Bateman. It also reserves the key features such as the location New York, the languish living style and the person who interacts with the Bateman the most: his secreatary Jean.
+
 ## Technical Notes
 
 My code requires TensorFlow, NumPy and IPython libraries. My code can run on any platform that supports Python and the previously mentioned libraries, because my code was written in standard Python grammar. It is also recommended to run the code on a platform/computer that has sufficient CPU power, because I increased the epoch size to be more than 500 in order to get satisfactory results. If the hardware computing power is not sufficient, the run time would be very long.
